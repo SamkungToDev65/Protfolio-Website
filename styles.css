@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+
+*{
+  font-family: 'Kanit', sans-serif;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.bg-coverhome {
+  background: url('images/home1.png') no-repeat center center / cover fixed;
+  border: 2px solid black;
+}
+
+.custom-paragraph {
+  max-width: 600px; /* Optional: Maximum width */
+}
+
+.btn-darkcustom{
+  background-color: #080808e6;
+  color: #ffffff;
+}
+
+.btn-darkcustom:hover{
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.btn-gray{
+  background-color: #7979792a;
+}
+
+.btn-gray:hover{
+  background-color: #7979798a;
+}
+
+.exp-section {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.exp-section:hover {
+  background-color: #f5f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.exp-section h5 {
+  color: #343a40;
+}
+.exp-section p {
+  color: #6c757d;
+}
+.exp-section hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.gpa-badge {
+  display: inline-block;
+  background-color: #000000;
+  color: #fafafa;
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.text-skill{
+  background-color:#080808e6;
+  display: inline-block;
+  margin-bottom: 4px;
+  padding: 4px 8px;
+  border-radius: 5px;
+  color: white; /* สีของข้อความ */
+}
+
+#certificate .cert-card {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  margin-bottom: 20px;
+}
+#certificate .cert-card:hover {
+  transform: scale(1.05);
+}
+#certificate .cert-card img {
+  border-radius: 8px 8px 0 0;
+}
+#certificate .cert-card-body {
+  padding: 20px;
+}
+#certificate .cert-card-title {
+  font-size: 1.25rem;
+  color: #333;
+}
+#certificate .cert-card-text {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.footer {
+  position: fixed; /* เพื่อให้ footer อยู่ที่ด้านล่างสุดของหน้า */
+  left: 0;
+  bottom: 0;
+  background-color: #080808e6; /* สีพื้นหลังของ footer */
+  color: #ffffff; /* สีข้อความ */
+  text-align: center; /* จัดข้อความให้อยู่ตรงกลาง */
+  width: 100%;
+  padding: 20px 0;
+  
+}
+
+
